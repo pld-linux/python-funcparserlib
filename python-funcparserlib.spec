@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define 	module	funcparserlib
-Summary:	-
+Summary:	Recursive descent parsing library based on functional combinators
 Name:		python-%module
 Version:	0.3.5
 Release:	0.1
@@ -21,12 +21,13 @@ Source0:	http://pypi.python.org/packages/source/f/%{module}/%{module}-%{version}
 #BuildRequires:	python-sqlite
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRequires:	sed >= 4.0
-Requires:	python-django
+#Requires:	python-django
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-<empty>
+Parser combinators are just higher-order functions that  take parsers and 
+thier arguments and return them as result values.
 
 %prep
 %setup -q -n %{module}-%{version}
