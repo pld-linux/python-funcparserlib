@@ -1,11 +1,11 @@
 %define 	module	funcparserlib
 Summary:	Recursive descent parsing library based on functional combinators
-Name:		python-%module
+Name:		python-%{module}
 Version:	0.3.5
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		Development/Languages
-URL:		http://code.google.com/p/%{module}/
+URL:		http://code.google.com/p/funcparserlib/
 Source0:	http://pypi.python.org/packages/source/f/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	52dfec49f2d2c4d816fe8d8c90f7dcf1
 BuildRequires:	rpmbuild(macros) >= 1.219
