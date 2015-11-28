@@ -23,13 +23,11 @@ and thier arguments and return them as result values.
 %{__sed} -i -e 's/^use_setuptools()/#use_setuptools()/' setup.py
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--optimize=2 \
-	--skip-build \
+%py_install \
 	--root $RPM_BUILD_ROOT
 
 %py_postclean
