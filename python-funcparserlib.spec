@@ -8,7 +8,7 @@ Group:		Development/Languages
 URL:		http://code.google.com/p/funcparserlib/
 Source0:	http://pypi.python.org/packages/source/f/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	52dfec49f2d2c4d816fe8d8c90f7dcf1
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	sed >= 4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
