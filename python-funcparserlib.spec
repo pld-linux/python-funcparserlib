@@ -2,7 +2,7 @@
 Summary:	Recursive descent parsing library based on functional combinators
 Name:		python-%{module}
 Version:	0.3.5
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Languages
 URL:		http://code.google.com/p/funcparserlib/
