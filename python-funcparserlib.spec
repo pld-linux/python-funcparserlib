@@ -9,7 +9,7 @@ Summary:	Recursive descent parsing library based on functional combinators
 Summary(pl.UTF-8):	Biblioteka analizy rekurencyjnej oparta na kombinatorach funkcyjnych
 Name:		python-%{module}
 Version:	0.3.6
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/funcparserlib/
